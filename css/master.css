@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/body.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 500%;
+  text-shadow: 2px 2px 0px #000000, 2px 2px 0px #ffffff, -2px -2px 4px #000000;
+  color: white;
+  position: relative;
+  top: -10px;
+  letter-spacing: 7px;
+}
+
+.head {
+  padding: 0px 20px 20px 20px;
+  background-image: url("../images/head.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  margin: 20px;
+}
+
+.noFloat {
+  clear: both;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  font-size: 250%;
+  text-shadow: 2px 2px 0px #000000, 2px 2px 0px #ffffff, -2px -2px 4px #000000;
+  color: white;
+  position: relative;
+  top: 20px;
+}
+
+.webDev {
+  background-image: url("../images/webDev.jpg");
+  float: left;
+}
+
+.Programming {
+  background-image: url("../images/Programming.jpg");
+  float: left;
+  margin-left: 20px;
+}
+
+.College {
+  width: 31.5%;
+  background-image: url("../images/College.jpg");
+  float: right;
+}
+
+.webDev, .Programming, .College {
+  width: 31.55%;
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5px 5px 30px 5px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 32px black, 0px 0px 16px white;
+}
+
+.webDev-content {
+  margin-top: 30px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  box-shadow: 0px 0px 4px #e5e5e5;
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+p {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 200%;
+  color: #EB5024;
+  margin: 0px;
+  margin-top: 8px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
